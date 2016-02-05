@@ -1,0 +1,18 @@
+/** Fonts */
+@font-face { font-family: 'Open Sans'; font-style: normal; font-weight: 300; src: local("Open Sans"), local("OpenSans"), url(/r/f/OpenSans-Light.ttf) format("woff"); }
+@font-face { font-family: 'Open Sans'; font-style: normal; font-weight: 400; src: local("Open Sans"), local("OpenSans"), url(/r/f/OpenSans-Regular.ttf) format("woff"); }
+@font-face { font-family: 'Open Sans'; font-style: normal; font-weight: 600; src: local("Open Sans"), local("OpenSans"), url(/r/f/OpenSans-SemiBold.ttf) format("woff"); }
+@font-face { font-family: 'Open Sans'; font-style: normal; font-weight: 700; src: local("Open Sans"), local("OpenSans"), url(/r/f/OpenSans-Bold.ttf) format("woff"); }
+header { border-top: 0px none #471118; border-bottom: 0px none #e8e8e8; background-color: #471118; color: #f4f4f4; }
+header h1 { display: block; float: none; font-size: 56px; font-weight: 100px; line-height: 56px; padding-top: 54px; }
+@media screen and (max-width: 600px) { header h1 { font-size: 38px; line-height: 38px; padding-top: 10px; } }
+header h2 { display: block; float: none; font-size: 24px; font-weight: 100px; line-height: 24px; margin-left: 5px; padding-bottom: 54px; }
+@media screen and (max-width: 600px) { header h2 { font-size: 18px; line-height: 18px; letter-spacing: -0.5px; padding-bottom: 10px; } }
+header a { color: #f4f4f4; border-style: none; }
+header a:hover { color: #f4f4f4; border-style: none; }
+header nav { margin: 66px 0px; }
+header nav a { padding: 5px 10px; color: #f4f4f4; border-style: none; }
+header nav a:hover { color: #471118; background: #f4f4f4; border-style: none; }
+@media screen and (max-width: 600px) { header nav a { color: #424242; }
+  header nav a:hover { background: none; } }
+@media screen and (max-width: 600px) { header nav { margin: 10px 0px; } }

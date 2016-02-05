@@ -1,0 +1,23 @@
+# Site settings
+title: Flashbulb Memories
+tagline: Caputre the Moment
+logo: "/r/i/var/logo_48.png"
+
+description: "The premier photobooth rental company in Winnipeg, MB offering affordable packages and great customer service."
+baseurl: ""
+safe: true
+
+include: []
+exclude: []
+
+url: "http://flashbulbmemories.ca"
+
+email: gilles@flashbulbmemories.ca
+
+twitter_username:		flashbulb_memories
+instagram_username:		flashbulb_memories
+facebook_username:		fmphotobooths
+
+# Build settings
+markdown: kramdown
+timezone: Canada/Eastern

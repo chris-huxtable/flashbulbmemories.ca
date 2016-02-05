@@ -1,0 +1,42 @@
+// Our variables
+
+$base-font-family: 'Open Sans', sans-serif;
+$base-font-size:   18px;
+$small-font-size:  14px;
+$banner-font-size: 14px;
+
+$base-line-height: 1.5;
+$base-font-weight: 300;
+
+$spacing-unit:     20px;
+$radius:           6px;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  rgb(66, 66, 66);
+
+$text-color:       $grey-color-dark;
+$background-color: #fdfdfd;
+$brand-color:      #471118;
+$off-white-color:  #f4f4f4;
+
+// Width of the content area
+$content-width:    900px;
+
+$on-palm:          600px;
+$on-laptop:        900px;
+
+@mixin media-query($device) {
+	@media screen and (max-width: $device) { @content; }
+}
+
+@mixin link() {
+	color: $brand-color;
+	text-decoration: none;
+	border-bottom: 0px none $brand-color;
+	
+	&:hover {
+		color: $brand-color;
+		border-bottom: 1px dotted $brand-color;
+	}
+}

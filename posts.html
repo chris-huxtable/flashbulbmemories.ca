@@ -1,0 +1,21 @@
+---
+layout: page
+title: Posts
+permalink: /posts/
+---
+
+<div class="post-list">
+	{% for post in site.posts %}{% assign currentdate = post.date | date: "%Y" %}{% if currentdate != date %}{% unless forloop.first %}</ul>{% endunless %}
+	<h2>{{ currentdate }}</h2>
+	<ul>{% assign date = currentdate %}{% endif %}
+		<li>
+			<h3>
+				<div class="link"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></div> 
+				&raquo;<div class="date">{{ post.date | date: "%b. %-d, %Y" }}</div>
+			</h3>
+			{{ post.description }}
+		</li>{% if forloop.last %}
+	</ul>{% endif %}{% endfor %}
+	<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+	
+</div>
