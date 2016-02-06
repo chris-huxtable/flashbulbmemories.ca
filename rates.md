@@ -21,7 +21,7 @@ We offer discounted pricing for full-day and multi-day events - please contact u
 
 ---
 
-#[Party Package]
+# [Party Package]
 
 <div class="image" style="float:right; width:256px; margin-left:20px;"><img src="/r/i/var/rates_classic.png" alt-text="The Classic Booth"/></div>
 
@@ -43,7 +43,7 @@ Fees:
 
 ---
 	
-#[Digital-Only Package]
+# [Digital-Only Package]
 
 <div class="image" style="float:right; width:256px; margin-left:20px;"><img src="/r/i/var/home_main.png" alt-text="The Classic Booth"/></div>
 
@@ -66,7 +66,7 @@ Fees:
 
 ---
 
-#[Fundraiser Package]
+# [Fundraiser Package]
 
 <div class="image" style="float:right; width:256px; margin-left:20px;"><img src="/r/i/var/rates_fundraiser.png" style="border-radius:8px;" alt-text="Coin Operation"/></div>
 
@@ -92,7 +92,7 @@ Fees:
 
 ---
 
-#[Talbot Package]
+# [Talbot Package]
 
 <div class="image" style="float:right; width:172px; margin-left:20px; padding:0px 42px;"><img src="/r/i/var/talbot.png" alt-text="Talbot Camera"/></div>
 
