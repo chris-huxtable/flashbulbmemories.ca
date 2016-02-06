@@ -94,6 +94,8 @@ Fees:
 
 #[Talbot Package]
 
+<div class="image" style="float:right; width:172px; margin-left:20px; padding:0px 42px;"><img src="/r/i/var/talbot.png" alt-text="Talbot Camera"/></div>
+
 Looking for something a little different? Our “Talbot” camera captures the look and feel of Victorian-era glass plate cameras, from the solid wood tripod to the “flash-powder” pan and squeeze-bulb operation. This unique option offers the same features and flexibility as our full-sized booth in a unique, compact package perfect for small or hard-to-reach venues. And with the lowest rates of any of our packages, it’s light on your wallet as well. What’s not to love?
 
 The Talbot comes standard with:
